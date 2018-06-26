@@ -1,0 +1,58 @@
+
+body {
+    font-family: "PT Sans";
+    display: block;
+}
+
+
+.table {
+    display: table;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+}
+
+.th {
+    display: table-caption;
+}
+
+.gray-area {
+    display: table;
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+}
+
+.card {
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.info {
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 250px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.row {
+    display: table-row;
+}
+
+.column {
+    display: table-cell;
+}
+
+.label {
+    font-weight: bold;
+    padding: 10px;
+}
+
