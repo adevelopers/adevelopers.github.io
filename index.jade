@@ -1,14 +1,20 @@
-html(lang="ru")
+- var pageTitle = 'Kirill Khudiakov aka adeveloper'
+- var skills = ['MVVM', 'Swift'];
+
+html(lang="en")
     head
         title= pageTitle
         link(rel="stylesheet" href="css/index.css")
     body
-        div.gray-area
+        div.desk
             div.card
-                div.info
-                    div.row
-                        div.column.label Name
-                        div.column.name Kirill Khudiakov
-                    div.row
-                        div.column.label Position
-                        div.column.name iOS Developer
+                div.card__field
+                    div.label Name
+                    div.name  Kirill Khudiakov
+                div.card__field
+                    div.label Position
+                    div.name  iOS Developer
+                ul.skill-list
+                    div.label Skills
+                    each item in skills
+                        li= item
