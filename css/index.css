@@ -4,55 +4,39 @@ body {
     display: block;
 }
 
+.desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
 
-.table {
-    display: table;
-}
-
-.tr {
-    display: table-row;
-}
-
-.td {
-    display: table-cell;
-}
-
-.th {
-    display: table-caption;
-}
-
-.gray-area {
-    display: table;
-    box-sizing: border-box;
-    height: 400px;
-    width: 100%;
 }
 
 .card {
-    display: table-cell;
     margin: auto;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.info {
-    border: 1px solid #ccc;
-    display: inline-block;
-    width: 250px;
     border-radius: 3px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 8px #ccc;
     padding: 20px;
+    width: 400px;
 }
 
-.row {
-    display: table-row;
+.card__field {
+    display: flex;
+    flex-direction: row;
 }
 
-.column {
-    display: table-cell;
+.card__field .label {
+    font-weight: bold;
+    margin-right: 20px;
 }
+
 
 .label {
     font-weight: bold;
-    padding: 10px;
 }
 
+.skill-list .label {
+    color: #777777;
+}
