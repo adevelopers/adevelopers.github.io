@@ -1,0 +1,15 @@
+- var skills = [{'title': 'Swift', 'desc': 'Description of skill'}, {'title': 'MVVM', 'desc': 'Description of skill'} ];
+
+html(lang="en")
+    head
+        title Skills
+        link(rel="stylesheet" href="css/index.css")
+    body
+        div.desk
+            div.card
+                h1.label.page-title Skills
+                ul.skills
+                    each item in skills
+                        li.skill
+                            p= item.title
+                            p= item.desc

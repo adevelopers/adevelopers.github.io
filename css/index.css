@@ -40,3 +40,30 @@ body {
 .skill-list .label {
     color: #777777;
 }
+
+.page-title {
+    margin: auto;
+    width: 100px;
+}
+
+/** Skills page */
+
+ul.skills {
+    list-style: none;
+}
+
+.skills li {
+    border-left: 1px solid #777777;
+}
+
+.skills li p:nth-child(1) {
+    border-bottom: 1px solid #777777;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.skills li p:nth-child(2) {
+    color: #999999;
+    padding-left: 20px;
+}
