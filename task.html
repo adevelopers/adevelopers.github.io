@@ -1,0 +1,8 @@
+<script>
+var input1 =  "Alfa 1, 2 and 3 from another world."   ;
+var patterns = { 1: "Betta", 2: 'Gamma', 3: 'Omega' };
+function ultraReplace(subject, items) {
+    return subject.replace(new RegExp(Object.keys(items).join("|"), "gi"), (key) => { return items[key]});
+}
+console.info(ultraReplace(input1, patterns));
+</script>
