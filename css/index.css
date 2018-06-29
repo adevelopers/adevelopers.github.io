@@ -10,6 +10,11 @@ body {
     align-items: center;
     align-content: center;
     height: 100%;
+    /*background-image: url('https://htmlacademy.ru/assets/course113/img/texture-grass.jpg');*/
+    background-size: contain;
+
+    transform-style: preserve-3d;
+    perspective: 1000px;
 }
 
 .card {
@@ -19,6 +24,10 @@ body {
     box-shadow: 2px 2px 8px #ccc;
     padding: 20px;
     width: 400px;
+    background-color: white;
+    background-image: url('../images/rockywall.jpg');
+    -webkit-transform: rotateX(10deg);
+    transform: translateX(10deg);
 }
 
 .card__field {
@@ -36,7 +45,7 @@ body {
     font-weight: bold;
 }
 
-.skill-list .label {
+.link {
     color: #777777;
 }
 
