@@ -1,6 +1,5 @@
 - var pageTitle = 'Kirill Khudiakov aka adeveloper'
 - var skills = ['MVVM', 'Swift'];
-
 html(lang="en")
     head
         title= pageTitle
@@ -15,6 +14,6 @@ html(lang="en")
                     div.label Position
                     div.name  iOS Developer
                 ul.skill-list
-                    div.label Skills
+                    a(href='skills.html').label Skills
                     each item in skills
                         li= item
